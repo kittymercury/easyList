@@ -1,0 +1,90 @@
+html, body, #app, .easylist {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body:before {
+  content:'';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  background: rgb(33,33,43);
+  background: linear-gradient(194deg, rgba(33,33,43,1) 13%, rgba(30,34,60,1) 24%, rgba(55,52,93,1) 38%, rgba(68,58,105,1) 51%, rgba(107,75,129,1) 64%, rgba(131,102,134,1) 78%, rgba(133,102,115,1) 92%);
+}
+
+.easylist {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #42346d;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-add {
+  height: 30px;
+  width: 30px;
+  padding: 16px 16px;
+  border: none;
+  color: white;
+  background-color: #46b731bd;
+  border-radius: 30px;
+  box-shadow: 5px 1px 5px 3px #06050540;
+  font-size: 17px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-add:hover {
+  transition-duration: 0.5s;
+  height: 18px;
+  width: 18px;
+}
+
+*::-webkit-scrollbar {
+  width: 3px;
+  background-color: #856674;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #42346d;
+}

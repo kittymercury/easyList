@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-react-constant-elements",
+    "transform-react-remove-prop-types",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}

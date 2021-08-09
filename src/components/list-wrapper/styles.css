@@ -1,0 +1,15 @@
+.list-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+ul {
+  margin: 70px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+li:last-child {
+  margin-bottom: 130px;
+}
