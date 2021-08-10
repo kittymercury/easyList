@@ -1,6 +1,1 @@
-# React Examples
-
-**Running**:
-
-1. `sudo yarn start` - start application
-2. `sudo yarn build` - build application
+A simple [list](https://kittymercury.github.io/easyList/).

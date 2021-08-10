@@ -36,7 +36,7 @@ module.exports = {
       inject: true,
       hash: true,
     }),
-    new MiniCssExtractPlugin({ filename: 'style.[contenthash].css' }),
+    new MiniCssExtractPlugin({ filename: 'style.css' }),
     new DefinePlugin({
       __VERSION__: JSON.stringify('0.1.0'),
     }),
@@ -49,7 +49,7 @@ module.exports = {
         use: [cacheLoader('/js'), 'babel-loader'],
       },
       {
-        test: /\.css$/,
+        test: /\.(css|scss)$/,
         use:  [cacheLoader('/css'), 'style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       },
       {

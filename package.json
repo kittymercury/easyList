@@ -5,9 +5,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "webpack-dev-server --config webpack/dev.config.js",
-    "build": "rm -rf dist && webpack --config webpack/prod.config.js"
+    "build": "rm -rf docs && webpack --config webpack/prod.config.js && cp -r src/images docs/images"
   },
-  "author": "Ivan Melnyk",
+  "author": "Vi",
   "dependencies": {
     "axios": "0.18.0",
     "lodash": "4.17.11",

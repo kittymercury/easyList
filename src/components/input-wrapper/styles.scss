@@ -1,0 +1,41 @@
+.input-wrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+
+  input[type="text"] {
+    width: 100%;
+    line-height: 50px;
+    margin-left: 8px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    background-color: #cecdc4;
+    font-size: 16px;
+    border-radius: 50px;
+    flex: 1;
+  }
+
+  button {
+    height: 50px;
+    width: 50px;
+    margin: 0 8px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: bold;
+    flex-shrink: 0;
+
+    &.submit {
+      background-color: #73b762;
+    }
+
+    &.cancel {
+      background-color: #bd4e4e;
+    }
+  }
+}

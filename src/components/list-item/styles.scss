@@ -8,10 +8,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-li .delete {
-  font-size: 18px;
-  color: #f94e4e;
-  cursor: pointer;
+  .delete {
+    font-size: 18px;
+    color: #f94e4e;
+    cursor: pointer;
+  }
 }

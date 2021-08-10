@@ -4,7 +4,7 @@ const merge = require('webpack-merge');
 const BASE_CONFIG = require('./base.config');
 const PATHS = {
   src: path.resolve(__dirname, '../src'),
-  dist: path.resolve(__dirname, '../dist'),
+  dist: path.resolve(__dirname, '../docs'),
 };
 
 module.exports = merge(BASE_CONFIG, {

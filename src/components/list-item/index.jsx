@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 
 export default class ListItem extends React.Component {
   render () {
