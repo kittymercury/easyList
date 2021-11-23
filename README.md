@@ -1,2 +1,4 @@
-React App created for holding shopping items. 
-https://kittymercury.github.io/easyList/
+This React App was created for holding list items.
+[Tap to try](https://kittymercury.github.io/easyList/).
+
+Looks better than https://kittymercury.github.io/easyList1.0/ .
