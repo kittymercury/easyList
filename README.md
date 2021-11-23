@@ -1,1 +1,2 @@
-A simple [list](https://kittymercury.github.io/easyList/).
+React App created for holding shopping items. 
+https://kittymercury.github.io/easyList/
