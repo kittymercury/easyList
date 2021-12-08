@@ -1,0 +1,33 @@
+.list-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+
+  ul {
+    margin: 70px 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 3px;
+      padding: 20px;
+      background-color: #dfdff33b;
+      font-size: x-large;
+      color: white;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:last-child {
+        margin-bottom: 130px;
+      }
+
+      .delete {
+        font-size: 18px;
+        color: #f94e4e;
+        cursor: pointer;
+      }
+    }
+  }
+}
