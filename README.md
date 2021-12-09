@@ -1,1 +1,2 @@
-A simple [list](https://kittymercury.github.io/easyList/).
+A simple list written with react-redux.
+https://kittymercury.github.io/easyList/
